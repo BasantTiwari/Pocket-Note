@@ -10,12 +10,12 @@ const Main = ({ activeNote, onUpdateNote }) => {
   };
 
   if (!activeNote) return <div className="no-active-note">
-    <img  className="no-active-note-img" src="pocketnoteimg.png" alt="image" />
-    <h2>Pocket Notes</h2>
+    <img  className="no-active-note-img" src="backimage.png" alt="image" />
+    <h2>Pocket Notes </h2>
     <p>Send and receive messages without keeping your phone online.</p>
     <p>Use Pocket Notes on up to 4 linked devices and 1 mobile phone</p>
     <footer>
-      <img className="lock-img" src="lock.png" alt="lock" />
+      <img className="lock-img" src="lockimage.png" alt="lock" />
       end-to-end encrypted</footer>
     </div>
 
